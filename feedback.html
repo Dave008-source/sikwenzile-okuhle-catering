@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback - Sikwenzile Okuhle Catering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+        <h1>Customer Feedback</h1>
+        <p>Your opinion helps us serve you better!</p>
+    </header>
+
+    <main>
+        <section class="feedback-form-container">
+            <h2>How was your experience?</h2>
+            <p>Please share your satisfaction or dissatisfaction with our services below.</p>
+
+            <form action="https://formspree.io/f/xeozrnbv" method="POST">
+                <div class="satisfaction-rating">
+                    <p>Overall, were you satisfied with our service?</p>
+                    <label>
+                        <input type="radio" name="satisfaction" value="satisfied" required>
+                        Satisfied 😊
+                    </label>
+                    <label>
+                        <input type="radio" name="satisfaction" value="dissatisfied" required>
+                        Dissatisfied 😞
+                    </label>
+                </div>
+
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Your Email (Optional):</label>
+                <input type="email" id="email" name="_replyto">
+
+                <label for="message">Comments & Suggestions:</label>
+                <textarea id="message" name="message" rows="6" placeholder="Tell us what you liked or how we can improve." required></textarea>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sikwenzile Okuhle Catering. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
