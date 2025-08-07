@@ -227,4 +227,64 @@ footer {
     .product-grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
+
+}
+
+.feedback-form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form-container h2 {
+    color: #556B2F; /* A green color for your brand */
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.satisfaction-rating {
+    margin-bottom: 1.5rem;
+}
+
+.satisfaction-rating label {
+    font-weight: normal;
+    margin-right: 1.5rem;
+}
+
+button[type="submit"] {
+    background-color: #556B2F;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #6B8E23;
 }
